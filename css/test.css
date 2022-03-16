@@ -26,20 +26,29 @@ ul {
 ul > li {
     margin-right: 30px;
 }
+ul > li:last-child {
+    margin-right: 0;
+}
 .box {
     display: flex;
     margin-bottom: 30px;
     gap: 20px;
     border-bottom: 1px solid #000;
 }
+.aside {
+    background-color: lavender;
+    padding: 10px 20px;
+}
 section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
 }
-.aside {
-    background-color: lavender;
-    padding: 10px 20px;
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
 }
 .post {
     padding-bottom: 20px;
